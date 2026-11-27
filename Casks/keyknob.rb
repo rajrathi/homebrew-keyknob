@@ -5,8 +5,8 @@
 # `version` and `sha256` are updated after each release by
 # packaging/macos/bump-cask.sh in the keyknob repository.
 cask "keyknob" do
-  version "0.1.0"
-  sha256 "8f618460bf288902464776493af54e4ccd04238537af3b83a06478aa6a85b63c"
+  version "0.1.1"
+  sha256 "7143aa4fac42b2f37f03fe21c9b94d1e29a4656be777ef775059c20dcb28cd63"
 
   url "https://github.com/rajrathi/keyknob/releases/download/v#{version}/Keyknob_#{version}_universal.dmg"
   name "Keyknob"
