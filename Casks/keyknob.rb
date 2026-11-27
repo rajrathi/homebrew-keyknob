@@ -6,7 +6,7 @@
 # packaging/macos/bump-cask.sh in the keyknob repository.
 cask "keyknob" do
   version "0.1.0"
-  sha256 :no_check
+  sha256 "8f618460bf288902464776493af54e4ccd04238537af3b83a06478aa6a85b63c"
 
   url "https://github.com/rajrathi/keyknob/releases/download/v#{version}/Keyknob_#{version}_universal.dmg"
   name "Keyknob"
